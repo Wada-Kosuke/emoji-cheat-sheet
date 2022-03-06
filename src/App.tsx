@@ -1,24 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import TabContent from './components/organisms/TabContent'
 
-function App() {
+const tabTexts: string[] = ["All", "Favorites"];
+
+const App: React.VFC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-3xl font-bold underline">
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-gray-900 min-h-screen pt-8">
+      <TabContent tabTexts={tabTexts} />
     </div>
   );
 }
