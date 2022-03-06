@@ -1,0 +1,410 @@
+[
+  {
+    "shortCode": ":blush:",
+    "graph": "😊"
+  },
+  {
+    "shortCode": ":smile:",
+    "graph": "😄"
+  },
+  {
+    "shortCode": ":grinning:",
+    "graph": "😀"
+  },
+  {
+    "shortCode": ":hugs:",
+    "graph": "🤗"
+  },
+  {
+    "shortCode": ":heart_eyes:",
+    "graph": "😍"
+  },
+  {
+    "shortCode": ":kissing_heart:",
+    "graph": "😘"
+  },
+  {
+    "shortCode": ":wink:",
+    "graph": "😉"
+  },
+  {
+    "shortCode": ":joy:",
+    "graph": "😂"
+  },
+  {
+    "shortCode": ":rofl:",
+    "graph": "🤣"
+  },
+  {
+    "shortCode": ":sweat_smile:",
+    "graph": "😅"
+  },
+  {
+    "shortCode": ":squinting_face_with_tongue:",
+    "graph": "😝"
+  },
+  {
+    "shortCode": ":sunglasses:",
+    "graph": "😎"
+  },
+  {
+    "shortCode": ":drooling_face:",
+    "graph": "🤤"
+  },
+  {
+    "shortCode": ":innocent:",
+    "graph": "😇"
+  },
+  {
+    "shortCode": ":face_with_tongue:",
+    "graph": "😛"
+  },
+  {
+    "shortCode": ":winking_face_with_tongue:",
+    "graph": "😜"
+  },
+  {
+    "shortCode": ":zany_face:",
+    "graph": "🤪"
+  },
+  {
+    "shortCode": ":smirk:",
+    "graph": "😏"
+  },
+  {
+    "shortCode": ":sob:",
+    "graph": "😭"
+  },
+  {
+    "shortCode": ":cry:",
+    "graph": "😢"
+  },
+  {
+    "shortCode": ":cold_sweat:",
+    "graph": "😰"
+  },
+  {
+    "shortCode": ":disappointed_relieved:",
+    "graph": "😥"
+  },
+  {
+    "shortCode": ":smiling_face_with_tear:",
+    "graph": "🥲"
+  },
+  {
+    "shortCode": ":sweat:",
+    "graph": "😓"
+  },
+  {
+    "shortCode": ":pleading_face:",
+    "graph": "🥺"
+  },
+  {
+    "shortCode": ":confounded:",
+    "graph": "😖"
+  },
+  {
+    "shortCode": ":confused:",
+    "graph": "😕"
+  },
+  {
+    "shortCode": ":disappointed:",
+    "graph": "😞"
+  },
+  {
+    "shortCode": ":dizzy_face:",
+    "graph": "😵"
+  },
+  {
+    "shortCode": ":tired_face:",
+    "graph": "😫"
+  },
+  {
+    "shortCode": ":face_vomiting:",
+    "graph": "🤮"
+  },
+  {
+    "shortCode": ":fearful:",
+    "graph": "😨"
+  },
+  {
+    "shortCode": ":pensive:",
+    "graph": "😔"
+  },
+  {
+    "shortCode": ":persevere:",
+    "graph": "😣"
+  },
+  {
+    "shortCode": ":face_with_spiral_eyes:",
+    "graph": "😵‍💫"
+  },
+  {
+    "shortCode": ":anguished:",
+    "graph": "😧"
+  },
+  {
+    "shortCode": ":angry:",
+    "graph": "😠"
+  },
+  {
+    "shortCode": ":pout:",
+    "graph": "😡"
+  },
+  {
+    "shortCode": ":cursing_face:",
+    "graph": "🤬"
+  },
+  {
+    "shortCode": ":imp:",
+    "graph": "👿"
+  },
+  {
+    "shortCode": ":triumph:",
+    "graph": "😤"
+  },
+  {
+    "shortCode": ":thinking:",
+    "graph": "🤔"
+  },
+  {
+    "shortCode": ":astonished:",
+    "graph": "😲"
+  },
+  {
+    "shortCode": ":expressionless:",
+    "graph": "😑"
+  },
+  {
+    "shortCode": ":flushed:",
+    "graph": "😳"
+  },
+  {
+    "shortCode": ":frowning:",
+    "graph": "😦"
+  },
+  {
+    "shortCode": ":hushed:",
+    "graph": "😯"
+  },
+  {
+    "shortCode": ":money_mouth:",
+    "graph": "🤑"
+  },
+  {
+    "shortCode": ":monocle_face:",
+    "graph": "🧐"
+  },
+  {
+    "shortCode": ":neutral_face:",
+    "graph": "😐"
+  },
+  {
+    "shortCode": ":open_mouth:",
+    "graph": "😮"
+  },
+  {
+    "shortCode": ":relieved:",
+    "graph": "😌"
+  },
+  {
+    "shortCode": ":roll_eyes:",
+    "graph": "🙄"
+  },
+  {
+    "shortCode": ":sleeping:",
+    "graph": "😴"
+  },
+  {
+    "shortCode": ":sleepy:",
+    "graph": "😪"
+  },
+  {
+    "shortCode": ":mask:",
+    "graph": "😷"
+  },
+  {
+    "shortCode": ":sneezing_face:",
+    "graph": "🤧"
+  },
+  {
+    "shortCode": ":zipper_mouth:",
+    "graph": "🤐"
+  },
+  {
+    "shortCode": ":ok_man:",
+    "graph": "🙆‍♂️"
+  },
+  {
+    "shortCode": ":ok_woman:",
+    "graph": "🙆‍♀️"
+  },
+  {
+    "shortCode": ":ng_man:",
+    "graph": "🙅‍♂️"
+  },
+  {
+    "shortCode": ":no_good:",
+    "graph": "🙅‍♀️"
+  },
+  {
+    "shortCode": ":bow:",
+    "graph": "🙇‍♂️"
+  },
+  {
+    "shortCode": ":bowing_woman:",
+    "graph": "🙇‍♀️"
+  },
+  {
+    "shortCode": ":man-shrugging:",
+    "graph": "🤷‍♂️"
+  },
+  {
+    "shortCode": ":woman-shrugging:",
+    "graph": "🤷‍♀️"
+  },
+  {
+    "shortCode": ":man-raising-hand:",
+    "graph": "🙋‍♂️"
+  },
+  {
+    "shortCode": ":raising_hand:",
+    "graph": "🙋‍♀️"
+  },
+  {
+    "shortCode": ":pray:",
+    "graph": "🙏"
+  },
+  {
+    "shortCode": ":raised_hands:",
+    "graph": "🙌"
+  },
+  {
+    "shortCode": ":+1:",
+    "graph": "👍"
+  },
+  {
+    "shortCode": ": -1:",
+    "graph": "👎"
+  },
+  {
+    "shortCode": ":OK_hand:",
+    "graph": "👌"
+  },
+  {
+    "shortCode": ":clap:",
+    "graph": "👏"
+  },
+  {
+    "shortCode": ":punch:",
+    "graph": "👊"
+  },
+  {
+    "shortCode": ":hand:",
+    "graph": "✋"
+  },
+  {
+    "shortCode": ":wave:",
+    "graph": "👋"
+  },
+  {
+    "shortCode": ":handshake:",
+    "graph": "🤝"
+  },
+  {
+    "shortCode": ":fu:",
+    "graph": "🖕"
+  },
+  {
+    "shortCode": ":v:",
+    "graph": "✌️"
+  },
+  {
+    "shortCode": ":love-you_gesture:",
+    "graph": "🤟"
+  },
+  {
+    "shortCode": ":metal:",
+    "graph": "🤘"
+  },
+  {
+    "shortCode": ":muscle:",
+    "graph": "💪"
+  },
+  {
+    "shortCode": ":point_up_2:",
+    "graph": "👆"
+  },
+  {
+    "shortCode": ":point_down:",
+    "graph": "👇"
+  },
+  {
+    "shortCode": ":point_left:",
+    "graph": "👈"
+  },
+  {
+    "shortCode": ":point_right:",
+    "graph": "👉"
+  },
+  {
+    "shortCode": ":ear:",
+    "graph": "👂"
+  },
+  {
+    "shortCode": ":eyes:",
+    "graph": "👀"
+  },
+  {
+    "shortCode": ": 100:",
+    "graph": "💯"
+  },
+  {
+    "shortCode": ":accept:",
+    "graph": "🉑"
+  },
+  {
+    "shortCode": ":u7981:",
+    "graph": "🈲"
+  },
+  {
+    "shortCode": ":broken_heart:",
+    "graph": "💔"
+  },
+  {
+    "shortCode": ":droplet:",
+    "graph": "💧"
+  },
+  {
+    "shortCode": ":sweat_drops:",
+    "graph": "💦"
+  },
+  {
+    "shortCode": ":fire:",
+    "graph": "🔥"
+  },
+  {
+    "shortCode": ":exclamation:",
+    "graph": "❗"
+  },
+  {
+    "shortCode": ":question:",
+    "graph": "❓"
+  },
+  {
+    "shortCode": ":o:",
+    "graph": "⭕"
+  },
+  {
+    "shortCode": ":x:",
+    "graph": "❌"
+  },
+  {
+    "shortCode": ":zzz:",
+    "graph": "💤"
+  },
+  {
+    "shortCode": ":poop:",
+    "graph": "💩"
+  }
+]
