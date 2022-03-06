@@ -368,6 +368,10 @@
     "graph": "🈲"
   },
   {
+    "shortCode": ":two_hearts:",
+    "graph": "💕"
+  },
+  {
     "shortCode": ":broken_heart:",
     "graph": "💔"
   },
@@ -382,6 +386,10 @@
   {
     "shortCode": ":fire:",
     "graph": "🔥"
+  },
+  {
+    "shortCode": ":poop:",
+    "graph": "💩"
   },
   {
     "shortCode": ":exclamation:",
@@ -402,9 +410,5 @@
   {
     "shortCode": ":zzz:",
     "graph": "💤"
-  },
-  {
-    "shortCode": ":poop:",
-    "graph": "💩"
   }
 ]
