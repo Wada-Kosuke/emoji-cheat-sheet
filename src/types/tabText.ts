@@ -1,0 +1,1 @@
+export type TabText = "All" | "Favorites";

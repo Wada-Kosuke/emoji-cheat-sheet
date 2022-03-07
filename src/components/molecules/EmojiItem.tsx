@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-
-interface Emoji {
-  shortCode: string
-  graph: string
-}
+import { Emoji } from "../../types/emoji";
 
 type Props = {
   emoji: Emoji
@@ -19,7 +15,32 @@ const EmojiItem: React.VFC<Props> = (props) => {
     }, 1000)
   }
   const onChangeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-    e.target.checked ? setUnderText("added to Favorites") : setUnderText("removed");
+    const favoritesStr = localStorage.getItem("favorites");
+    let favorites: string[];
+    if (e.target.checked) {
+      setUnderText("added to Favorites");
+      if (favoritesStr) {
+        favorites = JSON.parse(favoritesStr);
+        favorites.push(props.emoji.shortCode);
+      } else {
+        favorites = [props.emoji.shortCode];
+      }
+      localStorage.setItem("favorites", JSON.stringify(favorites));
+    } else {
+      setUnderText("removed");
+      if (favoritesStr) {
+        favorites = JSON.parse(favoritesStr);
+        favorites = favorites.filter(favorite => favorite !== props.emoji.shortCode);
+        if (favorites.length) {
+          localStorage.setItem("favorites", JSON.stringify(favorites));
+        } else {
+          localStorage.removeItem("favorites");
+        }
+      } else {
+        return;
+      }
+    }
+
     setTimeout(() => {
       setUnderText("")
     }, 1000)
