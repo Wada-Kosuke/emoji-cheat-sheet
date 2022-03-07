@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Emoji } from "../../types/emoji";
 
 type Props = {
@@ -6,15 +6,17 @@ type Props = {
 }
 
 const EmojiItem: React.VFC<Props> = (props) => {
-  const [underText, setUnderText] = useState("")
+  const [underText, setUnderText] = useState("");
+  const [checked, setChecked] = useState(false);
   const onClickEmoji = (e: React.MouseEvent<HTMLButtonElement>) => {
     navigator.clipboard.writeText(props.emoji.shortCode);
     setUnderText("copied");
     setTimeout(() => {
-      setUnderText("")
-    }, 1000)
+      setUnderText("");
+    }, 1000);
   }
   const onChangeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setChecked(!checked);
     const favoritesStr = localStorage.getItem("favorites");
     let favorites: string[];
     if (e.target.checked) {
@@ -42,14 +44,24 @@ const EmojiItem: React.VFC<Props> = (props) => {
     }
 
     setTimeout(() => {
-      setUnderText("")
-    }, 1000)
+      setUnderText("");
+    }, 1000);
   }
+
+  useEffect(() => {
+    const favoritesStr = localStorage.getItem("favorites");
+    if (favoritesStr) {
+      const favorites = JSON.parse(favoritesStr);
+      if (favorites.includes(props.emoji.shortCode)) {
+        setChecked(true);
+      }
+    }
+  }, [])
 
   return (
     <div className="my-3">
       <div className="flex justify-center items-center mb-1">
-        <input onChange={onChangeInput} type="checkbox" />
+        <input onChange={onChangeInput} type="checkbox" checked={checked} />
         <button onClick={onClickEmoji} className="ml-2 text-3xl">{props.emoji.graph}</button>
       </div>
       <div className="text-center text-gray-300 font-xs h-4">
